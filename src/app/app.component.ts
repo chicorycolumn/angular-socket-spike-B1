@@ -16,5 +16,7 @@ export class AppComponent implements OnInit {
 
   emit(){this.socketService.emit()}
   emitOther(){this.socketService.emitOther()}
+  message(){this.socketService.message()}
   stop(){this.socketService.stop()}
+  verifyOff(){this.socketService.verifyOff()}
 }
