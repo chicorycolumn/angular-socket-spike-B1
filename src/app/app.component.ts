@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   title = 'ang-socket-spike4';
 
   constructor(private socketService: SocketioService) {}
+  
   ngOnInit() {
     this.socketService.setupSocketConnection();
   }
